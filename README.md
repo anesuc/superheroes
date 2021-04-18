@@ -55,6 +55,8 @@ To get a local copy up and running follow these simple steps. Another imprtant n
 id, combat, durability, intelligence, power, speed, strength
 ```
 
+You will need to change the credidentials and the host/port information in the [server.js](server file) before condinuing with the steps below.
+
 ### Prerequisites
 
 * node v12.0.0+ (this will depend on your platform for how to install it).
