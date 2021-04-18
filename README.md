@@ -3,7 +3,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/anesuc/superheroes">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="src/img/heroes.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Superheroes Explorer</h3>
@@ -11,7 +11,7 @@
   <p align="center">
     For comics and superhero enthusiasts 
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/anesuc/superheroes"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="http://superheroes.veel.tv:3000/">View Demo</a>
