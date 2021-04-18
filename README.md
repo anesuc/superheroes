@@ -6,7 +6,7 @@
     <img src="src/img/heroes.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Superheroes Explorer</h3>
+  <h3 align="center">Superhero Explorer</h3>
 
   <p align="center">
     For comics and superhero enthusiasts 
