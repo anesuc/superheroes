@@ -49,13 +49,12 @@ It is obviously easier and more convinient to use the live hosted version of thi
 ## Getting Started
 
 To get a local copy up and running follow these simple steps. Another imprtant note to coonsider is that this has been mostly tested in Chrome. There could be some issues with other browsers I am not aware of.
-
-***You will need a local (or remote) PostgreSQL setup to connect to. Have a look at the ![server.js](server file) to see how it needs to be setup. It needs to have a table named "test_db" (you can change this). The table needs to have 7 columns all set to accept intergers and the id set to be unique. The columns are to be used to store strength details of superheroes and are to be labelled as seen below:***
+***You will need a local (or remote) PostgreSQL setup to connect to. Have a look at the [server file](server.js) to see how it needs to be setup. It needs to have a table named "test_db" (you can change this). The table needs to have 7 columns all set to accept intergers and the id set to be unique. The columns are to be used to store strength details of superheroes and are to be labelled as seen below:***
 ```
 id, combat, durability, intelligence, power, speed, strength
 ```
 
-You will need to change the credidentials and the host/port information in the ![server.js](server file) before condinuing with the steps below.
+You will need to change the credidentials and the host/port information in the [server file](server.js) before condinuing with the steps below.
 
 ### Prerequisites
 
