@@ -103,5 +103,5 @@ You can edit statistics of a superhero by selecting the blue edit button as seen
 
 ## Assumptions
 
-Assumptions I made during the development of this project is that all saved hanges are available to all users since there is no login or user aunthenticaton mechanisms. Another assumption made is that once the info is changed thats what all users will get to see even when they menually search for that character.
+Assumptions I made during the development of this project is that all saved changes are available to all users since there is no login or user aunthenticaton mechanisms. Another assumption made is that once the info is changed thats what all users will get to see even when they menually search for that character.
 
