@@ -32,6 +32,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#assumptions">Assumptions</a></li>
   </ol>
 </details>
 
@@ -99,4 +100,8 @@ Alternatively, you can select previously saved superheroes to get to the same pa
 
 You can edit statistics of a superhero by selecting the blue edit button as seen below:
 ![Superheroes explorer edit stats](search-superhero-view-editing.png)
+
+## Assumptions
+
+Assumptions I made during the development of this project is that all saved hanges are available to all users since there is no login or user aunthenticaton mechanisms. Another assumption made is that once the info is changed thats what all users will get to see even when they menually search for that character.
 
