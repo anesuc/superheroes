@@ -1,0 +1,237 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /*height: 40vmin;*/
+  height: 20em;
+  pointer-events: none;
+  margin-bottom: 1em;
+  margin-top: 2em;
+  animation: App-logo-spin infinite 800s linear;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    /*animation: App-logo-spin infinite 20s linear;*/
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  min-height: 50%;
+  padding-bottom: 10px;
+}
+
+.list-group-item {
+  background-color: transparent !important;
+  margin-left: 1em;
+  padding: 2px !important;
+  padding-bottom: 5px !important;
+  border-radius: 5px !important;
+  font-weight: bold;
+}
+
+.list-group-item img {
+      height: 15em;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.hero-bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.user-edited-list {
+    margin-left: 40px !important;
+}
+
+.user-edited-list h5 {
+    width: 100%;
+    /*text-align: center;*/
+}
+
+body, html,.react-autosuggest__input, a,input[type=number] {
+  color: #ffffffe8 !important
+}
+
+.user-edited-list {
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+html {
+  background-color: black !important;
+}
+
+input[type=number] {
+      background-color: #ffffff1f;
+    border: 1px solid #ffffff63;
+    backdrop-filter: blur(15px);
+    border-radius: 4px;
+}
+
+body {
+  background-color: transparent !important;
+}
+
+.list-group-horizontal {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.justify-content-md-center {
+  max-width: 100%;
+}
+
+.hero-bg > img {
+    position: relative;
+    left: -30em;
+    opacity: 0.11;
+    width: calc(100% + 30em);
+    min-height: calc(100% + 30em);
+    top: -30em;
+    animation: App-logo-spin infinite 1500s linear;
+}
+
+.hero-view {
+  margin-top: 2em;
+}
+
+hr {
+  border-top: 1px solid rgb(255 255 255 / 34%) !important;
+}
+
+.hero-view img {
+  border-radius: 10px;
+  /*max-height: 35em;*/
+  width: auto;
+  max-width: 100%;
+}
+
+.superhero-label {
+  font-weight: bold;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.react-autosuggest__container {
+  position: relative;
+}
+
+.react-autosuggest__input {
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  border: 1px solid #ffffff63;
+  border-radius: 4px;
+  padding: 10px 16px;
+  line-height: 1.3333333;
+  width: 40%;
+  min-width: 25em;
+  height: 2.6em;
+  font-size: 1.2em;
+  margin-top: 1em;
+  background-color: #ffffff1f;
+  backdrop-filter: blur(15px);
+}
+
+.react-autosuggest__input:focus {
+  outline: none;
+}
+
+.react-autosuggest__container--open .react-autosuggest__input {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+  display: none;
+}
+
+.react-autosuggest__container--open .react-autosuggest__suggestions-container {
+  display: block;
+  position: absolute;
+  top: 5.5em;
+  width: 40%;
+  border: 1px solid #ffffff1f;
+  background-color: #272626f2;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 2;
+  left: 30%;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  border-radius: 5px;
+  box-shadow: 0 0 50px #000000;
+}
+
+.react-autosuggest__suggestions-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.react-autosuggest__suggestion:not(:first-child) {
+  border-top: 1px solid #ffffff2b;
+}
+
+.react-autosuggest__suggestion--focused,.react-autosuggest__suggestion:hover,.react-autosuggest__suggestion--highlighted {
+  background-color: #ffffff26 !important;
+  color: #fff;
+}
+
+.suggestion-content {
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+.hero-img-sm {
+  width: 5em;
+}
+
+.name {
+    margin-bottom: 1em;
+    text-align: left;
+    margin-left: 1em;
+}
+
+.highlight {
+  color: #ee0000;
+  font-weight: bold;
+}
+
+.react-autosuggest__suggestion--focused .highlight {
+  color: #120000;
+}
