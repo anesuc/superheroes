@@ -43,7 +43,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Superheroes Explorer][homepage.png]](http://superheroes.veel.tv:3000/)
+![Superheroes Explorer](homepage.png)
 
 It is obviously easier and more convinient to use the live hosted version of this. However, if you want to run it your self locally, you can find instructions on how to do that below.
 
@@ -86,13 +86,13 @@ To get a local copy up and running follow these simple steps. Another imprtant n
 ## Usage
 
 Search in the search box for any superhero character you are interested in. It will show you suggestions as you do so as seen below:
-[![Superheroes explorer search][search-superhero-view.png]]
+![Superheroes explorer search](search-superhero-view.png)
 
 Once you find the character you are interested in, press enter or select it from the suggestion. You will then be met with the info screen as seen below:
-[![Superheroes explorer search][search-superhero.png]]
+![Superheroes explorer search](search-superhero.png)
 
 Alternatively, you can select previously saved superheroes to get to the same page.
 
 You can edit statistics of a superhero by selecting the blue edit button as seen below:
-[![Superheroes explorer edit stats][search-superhero-view-editing.png]]
+![Superheroes explorer edit stats](search-superhero-view-editing.png)
 
