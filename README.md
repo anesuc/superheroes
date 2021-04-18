@@ -11,9 +11,6 @@
   <p align="center">
     For comics and superhero enthusiasts 
     <br />
-    <a href="https://github.com/anesuc/superheroes"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
     <a href="http://superheroes.veel.tv:3000/">View Demo</a>
   </p>
 </p>
