@@ -62,7 +62,7 @@ id, combat, durability, intelligence, power, speed, strength
   ```sh
   npm install npm@latest -g
   ```
-  * Yarn (this will depend on your platform for how to install it).
+* Yarn (this will depend on your platform for how to install it).
 
 ### Installation
 
